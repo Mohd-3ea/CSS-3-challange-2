@@ -1,0 +1,185 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #01e17e;
+}
+
+.container{
+    width: 580px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin: auto;
+    margin-left: 30%;
+    margin-top: 100px;
+    position: absolute;
+    box-shadow: 10px 10px 20px rgba(87, 87, 87, 0.548);
+}
+
+.side_card {
+    position: relative;
+    top: 50px;
+    left: -70px;
+    float: left;
+    width: 240px;
+    height: 80%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7px;
+    box-shadow: 7px 6px 20px rgba(123, 123, 123, 0.533);
+}
+
+.side_card > .side_card_content {
+    position: relative;
+    width: 100%;
+    height: 80%;
+    background-color: #addd3d;
+    border-radius: 7px;
+}
+
+.side_card > .side_card_content > img {
+    position: relative;
+    top: 15px;
+    left: -90px;
+    width: 130%;
+}
+
+.side_card > .side_card_content > .detail_imgs_container {
+    position: relative;
+    top: 20px;
+    width: 100%;
+    text-align: center;
+}
+
+.side_card > .side_card_content .detail-imgs {
+    display: inline-block;
+    height: 46px;
+    width: fit-content;
+    padding: 2px;
+    margin: 0 2px;
+    border: .7px solid rgb(206, 206, 206);
+    border-radius: 8px;
+}
+
+.side_card > .side_card_content .detail-imgs > img {
+    width: 40px;
+}
+
+.side_card > .side_card_content > .share_icon{
+    position: absolute;
+    left: 13px;
+    top: 11px;
+    width: 23px;
+}
+
+
+.side_card > .side_card_content > .heart_icon {
+    position: absolute;
+    left: 200px;
+    top: 13px;
+    width: 25px;
+}
+
+.content {
+    position: relative;
+    top: 50px;
+    float: right;
+    right: 75px;
+    width: 300px;
+    height: 90%;
+}
+
+.content > h1 {
+    color: rgb(58, 58, 58);
+    font-weight: bolder;
+}
+
+.content > span {
+    position: relative;
+    left: 5px;
+    color: rgb(143, 143, 143);
+    font-size: 12px;
+}
+
+.content > .whole_price {
+    position: relative;
+    top: 30px;
+    color: rgb(233, 42, 42);
+    font-size: 20px;
+}
+
+.content > .whole_price > .price {
+    font-size: 45px;
+    margin-left: 8px;
+    margin-top: 10px;
+}
+
+.content > .selection {
+    position: relative;
+    top: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 12px;
+    /* font-weight: bold; */
+    color: rgb(147, 147, 147);
+
+}
+
+.content > .color_optoins {
+    position: relative;
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    top: 55px;
+}
+
+.content > .color_optoins > .img_options {
+    position: relative;
+    display: inline-block;
+    width: fit-content;
+    padding: 5px 8px;
+}
+
+.content > .color_optoins > .img_options > img {
+    width: 25px;
+}
+
+.content > .color_optoins > .active {
+    border: 1px solid rgb(154, 154, 154);
+    border-radius: 10PX;
+}
+
+.content > .Benefits {
+    position: relative;
+    top: 63px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.content > .benefits_list {
+    position: relative;
+    top: 75px;
+    left: 20px;
+    color: rgb(86, 86, 86);
+}
+
+.content > button {
+    position: relative;
+    top: 85px;
+    left: 5px;
+    background-color: #ff3f40;
+    border: none;
+    padding: 20px 40px;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 4px 3px 20px rgb(164, 164, 164);
+}
